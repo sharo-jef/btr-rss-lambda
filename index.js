@@ -17,9 +17,9 @@ const generateFeed = async () => {
         return {
           guid: `${itemId}`,
           title: e.querySelector('.goods__list__title').textContent,
-          image: `${baseUrl}${e.querySelector('.goods__list__thumb > span').getAttribute('style').match(/(?<=\()[^)]*/g)[0]}`,
           description: parse(detailPage.data).querySelector('.goods__modal__desc').textContent,
           url: 'https://bocchi.rocks/goods/',
+          custom_elements: [{ image: `${baseUrl}${e.querySelector('.goods__list__thumb > span').getAttribute('style').match(/(?<=\()[^)]*/g)[0]}` }],
         };
       }),
   );
