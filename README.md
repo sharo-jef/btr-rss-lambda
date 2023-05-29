@@ -1,9 +1,3 @@
-# node-template
+# ぼっち・ざ・ろっく! GOODS RSS Feed
 
-Node.js project template
-
-## Usage
-
-```bash
-npx degit sharo-jef/node-template YOUR_PROJECT_NAME
-```
+[ここ](https://bocchi.rocks/goods/) を監視します。
