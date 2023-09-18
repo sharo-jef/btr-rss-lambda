@@ -21,7 +21,7 @@
   "dependencies": {
     "axios": "^1.4.0",
     "dotenv": "^16.3.1",
-    "node-html-parser": "^6.1.5",
+    "node-html-parser": "^6.1.10",
     "rss": "^1.2.2"
   },
   "type": "module"
