@@ -19,7 +19,7 @@
     "jest": "^29.6.1"
   },
   "dependencies": {
-    "axios": "^1.4.0",
+    "axios": "^1.5.1",
     "dotenv": "^16.3.1",
     "node-html-parser": "^6.1.5",
     "rss": "^1.2.2"
